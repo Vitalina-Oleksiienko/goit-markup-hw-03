@@ -1,0 +1,158 @@
+:root{
+  --text-color: #757575;
+  --logo-color: #2196f3;
+  --list-color: #ffffff;
+  --title-color: #2F303A;
+  --peculiarity-color: #212121;
+  --user-color:  #F5F4FA;
+}
+body {
+  background: var(--list-color);
+  font-family: Roboto, sans-serif;
+}
+.logo{
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  font-family: Raleway;
+}
+.logo-footer {
+  color: var(--list-color);
+}
+.logo-header{
+  color: #000;
+}
+.portfolio-logo{
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1,19;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: var(--logo-color, #2196f3);
+  text-shadow: black 1px 1px 0, black -1px -1px 0, 
+  black -1px 1px 0, black 1px -1px 0;
+  }
+/*навигация по сайту*/
+.site-nav .link {
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--text-color, #757575)
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--logo-color, #2196f3)
+}
+.site-nav .link.current {
+  color: var(--logo-color, #2196f3)
+}
+/*курсор для кнопок и ссылок*/
+.pointer {
+  cursor: pointer;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+}
+/*Эффективные решения для вашего бизнеса*/
+.main{
+  width: 1600px;
+  height: 600px;
+  background: var(--title-color, #2F303A)
+}
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--list-color, white);
+  width: 696px;
+  height: 120px;
+  text-align: center;
+  text-transform: uppercase;
+ }
+/* Button */
+.stydio-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--list-color, white);
+  background-color: var(--logo-color, #2196f3);
+  font-family: inherit;
+  }
+.portfolio-button .element:focus,
+.portfolio-button .element:hover {
+  background:var(--logo-color);
+  border-radius: 4px;
+  color: var(--list-color);
+  box-shadow: 0.0em 1px 0.0em rgba(125,125,125,0.5);
+}
+
+/* Особенности */
+.peculiarity {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--peculiarity-color,#212121);
+  text-transform: uppercase;
+}
+.about-peculiarity {
+  font-size: 14px;
+  line-height: 1.71; 
+}
+.list{
+  
+}
+.user{
+  background: var (--user-color, #F5F4FA)
+  height: 648px;
+  width: 1600px;
+  
+}
+.main-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--peculiarity-color,#212121);
+  text-align: center;
+}
+.item{
+   
+}
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--lpeculiarity-color,#212121)
+}
+button{
+  border-color: transparent; 
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--text-color, #757575) 
+}
+address{
+  font-style: normal;
+}
+ul {
+  list-style: none;
+  color: var(--peculiarity-color,#212121)
+}
+a {
+  text-decoration: none;
+}
+a:active,
+a:visited {
+  color: var(--logo-color, #2196f3)
+}
+footer{
+  background:  var(--title-color, #2F303A)
+}
