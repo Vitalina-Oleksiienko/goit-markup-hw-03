@@ -6,6 +6,11 @@
   --peculiarity-color: #212121;
   --user-color:  #F5F4FA;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   background: var(--list-color);
   font-family: Roboto, sans-serif;
@@ -13,8 +18,8 @@ body {
 .container{
   /* outline: 2px solid green;*/
   width: 1200px;
-  /*padding-left: 15px;
-  padding-right: 15px;*/
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -76,7 +81,7 @@ body {
  }
 .site-nav .item-contact:not(:last-child){
   margin-right: 50px;
-  margin-left: 387px;
+  margin-left: 331px;
 }
 .site-nav .link {
   display: block;
@@ -285,6 +290,7 @@ body {
   padding-bottom: 9px;
 }
 h1{
+  margin-bottom: 0;
  text-align: center;
  
   
