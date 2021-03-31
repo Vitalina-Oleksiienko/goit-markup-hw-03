@@ -148,9 +148,16 @@ body {
   background-color: var(--logo-color);
   font-family: inherit;
 }
+.section{
+  
+}
 .portfolio-button{
   padding-top: 94px;
-  }
+  padding-left: 280px;
+ display: inline-block;
+ 
+}
+  
 .portfolio-button .element:{
   display: flex;
   margin-right: 6px;
@@ -260,6 +267,7 @@ body {
   margin-bottom: 30px;
   margin-right: 30px;
   border-bottom-right-radius:5px;
+  border-bottom-left-radius:5px;
 }
 .portfolio-card{
   border: 1px solid #EEEEEE;
