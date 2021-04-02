@@ -228,7 +228,7 @@ body {
   width: 270px;
   height: 368px;
   border-radius: 0px 0px 4px 4px;
-  border: 1px solid #eeeeee;
+  border: 2px solid #eeeeee;
 }
 .user-block .user-item:not(:last-child) {
   margin-right: 30px;
