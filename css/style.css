@@ -25,6 +25,7 @@ body {
 }
 .logo-nav {
   display: flex;
+  border: 1px solid #eeeeee;
 }
 .logo {
   padding-top: 24px;
@@ -105,7 +106,7 @@ body {
   cursor: pointer;
   position: absolute;
   width: 200px;
-  height: 50px;
+  /*height: 50px;*/
   left: 700px;
   top: 430px;
 }
@@ -121,23 +122,19 @@ body {
   padding: 200px 452px 280px;
 }
 .title {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin: auto;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   color: var(--list-color, white);
   width: 696px;
-  /*height: 120px;*/
+  height: 120px;
   text-align: center;
   text-transform: uppercase;
 }
 /* Button */
 .stydio-button {
-  margin-top: 30px;
-  margin-bottom: 0;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -189,7 +186,7 @@ body {
   padding-top: 10px;
 }
 .visualization-section {
-  padding-bottom: 188px;
+  padding-bottom: 94px;
 }
 .visualization {
   display: flex;
@@ -204,11 +201,9 @@ body {
 .user {
   background: var(--user-color, #f5f4fa);
   height: 648px;
-  width: 1600px;
-
+  /*width: 1600px;*/
   padding-bottom: 94px;
-  padding-left: 0;
-  padding-right: 0;
+  padding-top: 94px;
 }
 .studio-card {
   padding: 20px 24px;
@@ -226,7 +221,7 @@ body {
 .user-block {
   display: flex;
   width: 1200px;
-  margin-left: 85px;
+  padding-left: 0;
 }
 .user-item {
   width: 270px;
