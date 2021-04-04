@@ -63,11 +63,15 @@ body {
 .nav {
   display: flex;
 }
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .site-nav {
   display: flex;
   padding-left: 0;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  /*margin-top: 32px;
+  margin-bottom: 32px;*/
 }
 .site-nav .contact:not(:last-child) {
   margin-right: 50px;
@@ -94,6 +98,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link-nav {
   color: var(--peculiarity-color);
@@ -152,15 +157,19 @@ body {
   background-color: var(--logo-color);
   font-family: inherit;
 }
-
-.portfolio-button {
+.section {
   padding-top: 94px;
-  padding-left: 280px;
-  display: inline-block;
+  padding-bottom: 94px;
 }
-.portfolio-button .element: {
+.portfolio-button {
+  padding-left: 280px;
   display: flex;
-  margin-right: 6px;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.portfolio-button .element:not(:last-child) {
+  display: flex;
+  margin-right: 8px;
 }
 .portfolio-button .element:focus,
 .portfolio-button .element:hover {
@@ -221,7 +230,7 @@ body {
   text-align: center;
 }
 .main-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -241,6 +250,7 @@ body {
   border: 2px solid #eeeeee;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: var(--list-color);
 }
 .user-block .user-item:not(:last-child) {
   margin-right: 30px;
@@ -249,19 +259,21 @@ body {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: stretch;
   padding-left: 0;
   width: 1200px;
-  padding-bottom: 94px;
-  padding-top: 94px;
+  /*padding-bottom: 94px;
+  padding-top: 94px;*/
 }
 .gallery-item {
   display: block;
   margin-bottom: 30px;
   margin-right: 30px;
+  width: 370px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   cursor: pointer;
+  background-color: var(--list-color);
 }
 .gallery-item:focus,
 .gallery-item:hover {
@@ -291,8 +303,6 @@ body {
 }
 .adress {
   display: block;
-  padding-bottom: 60px;
-  padding-top: 20px;
 }
 .site-nav .link-footer {
   padding-bottom: 9px;
@@ -301,17 +311,22 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: var(--text-color, #757575);
+  color: var(--text-color);
 }
 .site-nav .link-footer:hover,
 .site-nav .link-footer:focus {
-  color: var(--logo-color, #2196f3);
+  color: var(--logo-color);
+}
+.adress .link-adress {
+  color: var(--list-color);
 }
 .footer-contact {
   padding-left: 0;
 }
 .footer-contact .contact {
   padding-bottom: 9px;
+}
+header {
 }
 img {
   display: block;
@@ -344,7 +359,7 @@ button {
 }
 p {
   margin-top: 0;
-  margin-bottom: 0x;
+  margin-bottom: 0;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
@@ -368,6 +383,8 @@ a:visited {
   color: var(--logo-color, #2196f3);
 }
 footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   margin-top: 0;
   background: var(--title-color, #2f303a);
 }
