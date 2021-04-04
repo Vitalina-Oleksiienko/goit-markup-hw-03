@@ -31,7 +31,7 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
   width: 145px;
-  height: 31px;
+  /*height: 31px;*/
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -48,7 +48,7 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
   width: 145px;
-  height: 31px;
+  /*height: 31px;*/
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -66,6 +66,8 @@ body {
 .site-nav {
   display: flex;
   padding-left: 0;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .site-nav .contact:not(:last-child) {
   margin-right: 50px;
@@ -81,10 +83,10 @@ body {
 }
 .site-nav .item-contact:not(:last-child) {
   margin-right: 50px;
-  margin-left: 331px;
+  margin-left: 300px;
 }
-.site-nav .link {
-  display: block;
+.site-nav .link-nav .link-contact {
+  /*display: block;*/
   padding-top: 32px;
   padding-bottom: 32px;
   font-style: normal;
@@ -92,13 +94,18 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: var(--text-color, #757575);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link-nav {
+  color: var(--peculiarity-color);
+}
+.site-nav .link-contact {
+  color: var(--text-color);
+}
+.site-nav .link-nav .link-contact:hover,
+.site-nav .link-nav .link-contact:focus {
   color: var(--logo-color, #2196f3);
 }
-.site-nav .link.current {
+.site-nav .link-nav.current {
   color: var(--logo-color, #2196f3);
 }
 /*курсор для кнопок и ссылок*/
@@ -182,11 +189,11 @@ body {
   line-height: 1.14;
   color: var(--peculiarity-color, #212121);
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .about-peculiarity {
   font-size: 14px;
   line-height: 1.71;
-  padding-top: 10px;
 }
 .visualization-section {
   padding-bottom: 94px;
@@ -354,6 +361,7 @@ ul {
 }
 a {
   text-decoration: none;
+  color: var(--logo-color);
 }
 a:active,
 a:visited {
