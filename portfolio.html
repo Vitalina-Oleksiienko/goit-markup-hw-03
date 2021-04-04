@@ -14,34 +14,33 @@
     <!--шапка сторінки-->
     <header>
         <div class="container logo-nav">
-            <div class="portfolio-logo"><a href="index.html">WebStudio</a>
-            </div>
+            <div class="logo"><a href="index.html">Web</a><span class="logo-header">Studio</span> </div>
             <!--навігація на інші сторінки-->
-            <nav class="header">
+            <nav class="nav header">
                 <ul class="site-nav">
-                    <li class="item"><a href="index.html" class="link-nav">Студия</a></li>
+                    <li class="item"><a href="index.html" class="link-nav ">Студия</a></li>
                     <li class="item"><a href="portfolio.html" class="link-nav current">Портфолио</a></li>
                     <li class="item"><a href="Контакты" class="link-nav">Контакты</a></li>
                 </ul>
+                <ul class="site-nav">
+                    <li class="item-contact"><a href="mailto:info@example.com" class="link-contact">info@example.com</a></li>
+                    <li class="item-contact"><a href="tel:+380991111111" class="link-contact">+38 099 111 11 11</a></li>
+                </ul>
             </nav>
-                <ul class="site-nav header">
-                    <li class="item-contact"><a class="link-contact" href="mailto:info@example.com">info@example.com</a></li>
-                    <li class="item-contact"><a class="link-contact" href="tel:+380991111111">+38 099 111 11 11</a></li>
-                </ul>   
         </div>
         
     </header>
 
     <main >
-        <section class="container section">
-            <div>
+        <section class="section">
+            <div class="container">
                 <h1 hidden>портфолио</h1>
                 <ul class="portfolio-button">
-                    <li class="element"> <button type="button" >Все</button></li>
-                    <li class="element"> <button type="button" >Веб-сайты</button></li>
-                    <li class="element"> <button type="button" >Приложения</button></li>
-                    <li class="element"> <button type="button" >Дизайн</button></li>
-                    <li class="element"> <button type="button" >Маркетинг</button></li>
+                    <li class="item-button"> <button type="button" class="element">Все</button></li>
+                    <li class="item-button"> <button type="button" class="element">Веб-сайты</button></li>
+                    <li class="item-button"> <button type="button" class="element">Приложения</button></li>
+                    <li class="item-button"> <button type="button" class="element">Дизайн</button></li>
+                    <li class="item-button"> <button type="button" class="element">Маркетинг</button></li>
                 </ul>
                 
                 <h2 hidden>галерея</h2>
@@ -50,7 +49,7 @@
                         <a href=""></a>
                         <img src="images/portfolio/1.jpg" alt="ноутбук на котором изображены люди" width="370">
                         <div class="portfolio-card">
-                            <h3>Технокряк</h3>
+                            <h3 class="card-element">Технокряк</h3>
                             <p>Веб-сайт</p>
                         </div>
                 
@@ -59,7 +58,7 @@
                         <a href=""></a>
                         <img src="images/portfolio/2.jpg" alt="мужчины и баскетбольный мяч" width="370">
                         <div class="portfolio-card">
-                            <h3> Постер New Orlean vs Golden Star</h3>
+                            <h3 class="card-element"> Постер New Orlean vs Golden Star</h3>
                             <p>Дизайн </p>
                         </div>
                 
@@ -68,7 +67,7 @@
                         <a href=""></a>
                         <img src="images/portfolio/3.jpg" alt="рыба и название ресторана" width="370">
                         <div class="portfolio-card">
-                            <h3> Ресторан Seafood</h3>
+                            <h3 class="card-element"> Ресторан Seafood</h3>
                             <p>Приложение</p>
                         </div>
                 
@@ -77,7 +76,7 @@
                         <a href=""></a>
                         <img src="images/portfolio/4.jpg" alt="наушники черного цвета" width="370">
                         <div class="portfolio-card">
-                            <h3> Проект Prime</h3>
+                            <h3 class="card-element"> Проект Prime</h3>
                             <p> Маркетинг</p>
                         </div>
                 
@@ -86,7 +85,7 @@
                         <a href=""></a>
                         <img src="images/portfolio/5.jpg" alt="две коробки, черного и коричневого цвета" width="370">
                         <div class="portfolio-card">
-                            <h3> Проект Boxes</h3>
+                            <h3 class="card-element"> Проект Boxes</h3>
                             <p> Приложение</p>
                         </div>
                 
@@ -95,7 +94,7 @@
                         <a href=""></a>
                         <img src="images/portfolio/6.jpg" alt="монитор компютера черного цвета" width="370">
                         <div class="portfolio-card">
-                            <h3> Inspiration has no Borders</h3>
+                            <h3 class="card-element"> Inspiration has no Borders</h3>
                             <p> Веб-сайт</p>
                         </div>
                 
@@ -104,7 +103,7 @@
                         <a href=""></a>
                         <img src="images/portfolio/7.jpg" alt="журнал в раскрытом виде" width="370">
                         <div class="portfolio-card">
-                            <h3> Издание Limited Edition</h3>
+                            <h3 class="card-element"> Издание Limited Edition</h3>
                             <p> Дизайн</p>
                         </div>
                 
@@ -113,7 +112,7 @@
                         <a href=""></a>
                         <img src="images/portfolio/8.jpg" alt="бирка белого цвета с черной надписью" width="370">
                         <div class="portfolio-card">
-                            <h3>Проект LAB </h3>
+                            <h3 class="card-element">Проект LAB </h3>
                             <p> Маркетинг</p>
                         </div>
                 
@@ -122,7 +121,7 @@
                         <a href=""></a>
                         <img src="images/portfolio/9.jpg" alt="ноутбук на котором работает человек" width="370">
                         <div class="portfolio-card">
-                            <h3>Growing Business</h3>
+                            <h3 class="card-element">Growing Business</h3>
                             <p>Приложение</p>
                         </div>
                 
@@ -139,7 +138,7 @@
     <!--підвал-->
         <footer>
             <div class="container">
-                <div class="logo"><a href="index.html">Web</a><span class="logo-footer">Studio</span> </div>
+                <div class="logo-basement"><a href="index.html">Web</a><span class="logo-footer">Studio</span> </div>
                 <address class="site-nav">
                     <div class="adress">
                         <p class="link-footer link-adress">г. Киев, пр-т Леси Украинки, 26</p>
